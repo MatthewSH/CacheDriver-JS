@@ -1,6 +1,6 @@
-import { get as getCodependency } from "codependency";
+import { register as getCodependency } from "codependency";
 import { Cache } from '../Cache';
-let requirePeer = getCodependency("cache-driver");
+let requirePeer = getCodependency(module);
 
 export class CacheAdapter implements Cache {
     private cache: any;

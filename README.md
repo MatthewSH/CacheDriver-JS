@@ -40,7 +40,7 @@ npm install cache --save
 ```
 
 ```js
-import { CacheAdapter } from "cache-driver/adapaters/CacheAdapters"
+import { CacheAdapter } from "cache-driver/lib/adapters/CacheAdapter"
 
 let awesome = new MyAwesomeClass(new CacheAdapater());
 ```
