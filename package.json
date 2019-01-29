@@ -1,6 +1,6 @@
 {
   "name": "cache-driver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cache driver interface that can be implmented into any package that needs the ability to support multiple caching systems.",
   "keywords": ["cache", "driver", "storage", "caching", "find", "get", "save", "file cache", "file", "json cache", "simple cache"],
   "main": "lib/Cache.js",
